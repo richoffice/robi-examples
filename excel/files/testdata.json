@@ -1,0 +1,46 @@
+{
+    "sheets": [
+        {
+            "key": "users",
+            "aliases": [
+                "user-list"
+            ],
+            "fields": [
+                {
+                    "key": "username",
+                    "aliases": [
+                        "name"
+                    ]
+                },
+                {
+                    "key": "birthday",
+                    "aliases": [
+                        "birthday"
+                    ],
+                    "dataType": "ExcelDate"
+                },
+                {
+                    "key": "count",
+                    "aliases": [
+                        "count"
+                    ],
+                    "dataType": "int"
+                },
+                {
+                    "key": "balance",
+                    "aliases": [
+                        "balance"
+                    ],
+                    "dataType": "float"
+                },
+                {
+                    "key": "full-balance",
+                    "aliases": [
+                        "full-balance"
+                    ],
+                    "dataType": "float"
+                }
+            ]
+        }
+    ]
+}
